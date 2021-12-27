@@ -13,8 +13,7 @@ public class Driver {
 
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        configureLogging("gitIntro.log","INFO");
+        configureLogging("var/log/gitIntro/gitIntro.log","INFO");
         logger.info("Started the project");
     }
 
